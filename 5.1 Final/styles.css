@@ -1,0 +1,89 @@
+/* Cyber Theme CSS */
+
+/* Reset default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #141d26; /* Dark blue background */
+    color: #fff; /* White text color */
+  }
+  
+  header {
+    background-color: #0c1320; /* Darker blue header background */
+    padding: 20px;
+  }
+  
+  header h1 {
+    color: #fff; /* White text color */
+    font-size: 36px;
+    text-align: center;
+  }
+  
+  nav {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  nav h2 {
+    color: #fff; /* White text color */
+    font-size: 24px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    font-size: 18px;
+    margin-right: 20px;
+  }
+  
+  nav a:hover {
+    color: #4db8ff; /* Lighter blue text color on hover */
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #4db8ff; /* Lighter blue heading color */
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table, th, td {
+    border: 1px solid #4db8ff; /* Lighter blue border */
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #0c1320; /* Darker blue header background */
+    color: #fff; /* White text color */
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #192734; /* Darker blue background for even rows */
+  }
+  
+  footer {
+    background-color: #0c1320; /* Darker blue footer background */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  

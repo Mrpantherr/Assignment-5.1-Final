@@ -1,0 +1,42 @@
+<!--Michael Ravelo-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles2.css">
+    <script src="script2.js" defer></script>
+    <nav>
+        <h2>Navigation</h2>
+        <a href="./index.html">Home</a><br>
+        <a href="./boards.html">Boards</a><br>
+        <a href="./strings.html">Strings</a><br>
+        <a href="./aiBoard.html">A.I Board</a><br>
+        <a href="./palindrome.html">Palindrome Checker</a><br>
+        <a href="./index2.html">Rock, Paper, Scissors</a><br>
+      </nav>
+</head>
+<!-- These are the buttons we will be using for rock, paper, scissors-->
+<body>
+    <div class="selections">
+        <button class="selection" data-selection="rock">✊</button>
+        <button class="selection" data-selection="paper">✋</button>
+        <button class="selection" data-selection="scissors">✌️</button>
+    </div>
+<!-- This creates and shows the results of the games that we play-->   
+    <div class="results">
+        <div>
+        You
+        <span class="result-score" data-your-score>0</span>
+    </div>
+    <div data-final-column>
+        Computer
+        <span class="result-score" data-computer-score>0</span>
+    </div>
+<!-- This will tell the computer what combonations win the game-->
+    <div class="result-selection winner">✊</div>
+    <div class="result-selection">✌️</div>
+    </div>
+</body>
+</html>
